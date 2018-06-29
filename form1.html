@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form 1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+<div class='page-header'>
+    <h1>Order</h1>
+</div>
+
+<form>
+    <fieldset class="fieldset">
+        <label>Name:</label>
+        <input type="text" class='form-control' id='name'>
+        <label>Surname:</label>
+        <input type="text" class='form-control' id='surname'>
+        <label>Address:</label>
+        <input type="text" class='form-control' id='address'>
+    </fieldset>
+    <div class="checkbox">
+        <label><input type="checkbox" id="invoice">I would like to receive an invoice</label>
+    </div>
+    <fieldset class="fieldset" id="invoiceData">
+        <label>Tax number:</label>
+        <input type="text" class='form-control' id='tax-nb'>
+        <label>Company's name:</label>
+        <input type="text" class='form-control' id='companyName'>
+        <label>Company's address:</label>
+        <input type="text" class='form-control' id='companyAddress'>
+    </fieldset>
+    <br>
+    <p>
+        <button>Submit</button>
+    </p>
+</form>
+<script src="js/form1.js"></script>
+</body>
+</html>

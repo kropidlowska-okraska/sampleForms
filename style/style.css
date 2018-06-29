@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+}
+
+.page-header {
+    text-transform: uppercase;
+    margin: 50px;
+}
+
+.fieldset {
+    border: none;
+    margin: 10px;
+}
+
+.error-message {
+  color : red;
+}
+
+ .success-message {
+  color: green;
+}
+
+ .hidden {
+     display: none;
+ }
