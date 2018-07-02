@@ -5,3 +5,6 @@ The project consist of a few different forms. Various kinds of inputs have been 
 # Instalation and guidelines
 
 To install the project simply download it and run the *.html files in your web browser. 
+
+# Form 1
+

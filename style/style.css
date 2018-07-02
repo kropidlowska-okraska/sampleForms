@@ -7,9 +7,19 @@ body {
     margin: 50px;
 }
 
+.page-header img {
+    margin: auto;
+    width: 204px;
+    height: 204px;
+}
+
 .fieldset {
     border: none;
     margin: 10px;
+}
+
+input {
+    margin-right: 15px;
 }
 
 .error-message {
