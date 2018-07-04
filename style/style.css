@@ -2,6 +2,12 @@ body {
     text-align: center;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
 .page-header {
     text-transform: uppercase;
     margin: 50px;
@@ -20,6 +26,21 @@ body {
 
 input {
     margin-right: 15px;
+}
+
+table, tr,td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+button {
+    padding: 10px;
+    font-weight: 800;
 }
 
 .error-message {
