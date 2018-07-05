@@ -17,3 +17,7 @@ Form that allows user to chose from possible options. The advantage of this form
 # Form 3
 
 The page shows the table with the names and scores of the 2 teams. The form allows a user to add the result of a new game. The form contains basic validation.
+
+# Form 4 
+
+The form requires basic data as email, name, surname and password. The validation requires input of proper data (@ sign in mail, long enough name and matching passwords.) If data are not correct suitable information will be prompted.
